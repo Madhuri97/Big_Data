@@ -18,15 +18,11 @@ for line in sys.stdin:
         print >> sys.stderr, "reporter:counter:Wiki stats,Total words,%d" % 1
         print "%s\t%d" % (word.lower(), 1)
 
-Overwriting mapper.py
-
 2. %%writefile reducer.py
 #!/usr/bin/python
 import sys
 current_key = None
 word_sum = 0
-
-Overwriting reducer.py
 
 3. %%writefile -a reducer.py
 
@@ -46,8 +42,6 @@ for line in sys.stdin:
 if current_key:
     print "%s\t%d" % (current_key, word_sum)
 
-Appending to reducer.py
-
 4. %%writefile mapper_rating.py
 #!/usr/bin/python
 
@@ -66,8 +60,6 @@ for line in sys.stdin:
         
     print "%d\t%s" % (count, word)
 
-Overwriting mapper_rating.py
-
 5. %%writefile reducer_rating.py
 #!/usr/bin/python
 
@@ -81,8 +73,6 @@ for line in sys.stdin:
         continue
         
     print "%s\t%d" % (word, count)
-
-Overwriting reducer_rating.py
 
 6. %%bash
 
