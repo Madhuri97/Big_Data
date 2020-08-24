@@ -83,3 +83,4 @@
 ## Question 13: How can the Reduce phase in Hadoop Streaming be omitted?
     Set number of reducers to 0
     Correct: Yes, that turns off the Reduce phase and the output of the Map phase becomes the output of the job
+    
