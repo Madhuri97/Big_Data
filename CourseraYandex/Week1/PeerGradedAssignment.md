@@ -28,8 +28,9 @@
 #### Use HDFS CLI to investigate the file ‘/data/wiki/en_articles_part/articles-part’ in HDFS:
 * get blocks and their locations in HDFS for this file, show the command without an output  
 * get the information about any block of the file, show the command and the block locations from the output
-
+#### ?
     hdfs fsck /data/wiki/en_articles_part/articles-part -files -blocks -locations
+    
     hdfs fsck/data/wiki/en_articles_part/articles-part -vlockId
     
 
