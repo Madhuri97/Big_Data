@@ -1,4 +1,4 @@
-# Quiz1:
+# Quiz1
 
 ## Question 1: What does relational data model consist of?
     Tables, rows, columns and values
