@@ -1,4 +1,4 @@
-# Exercise 2.3.1: Design MapReduce algorithms to take a very large file of integers and produce as output:
+# Exercise 2.3.1--> Design MapReduce algorithms to take a very large file of integers and produce as output:
 
 ## a) The largest integer.
 ### The map function is used to get the various combinations of the largest number in different files, each file representing as single chunk which produces output as key-value pair form

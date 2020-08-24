@@ -1,4 +1,4 @@
-# Excersice 2.3.3: In the form of relational algebra implemented in SQL, relations are not sets, but bags; that is, tuples are allowed to appear more than once. There are extended definitions of union, intersection, and difference for bags, which we shall define below. Write MapReduce algorithms for computing the following operations on bags R and S:
+# Excersice 2.3.3--> In the form of relational algebra implemented in SQL, relations are not sets, but bags; that is, tuples are allowed to appear more than once. There are extended definitions of union, intersection, and difference for bags, which we shall define below. Write MapReduce algorithms for computing the following operations on bags R and S:
 
 ## Bag Union, defined to be the bag of tuples in which tuple t appears the sum of the numbers of times it appears in R and S.
     Map : for each tuple t in R and S emit key-value pair(t,t)

@@ -1,4 +1,4 @@
-# Excersice2.3.3: Design MapReduce algorithm for matrix-vector multiplication where M is an r-by-c matrix for some number of rows r and columns c.
+# Excersice2.3.3--> Design MapReduce algorithm for matrix-vector multiplication where M is an r-by-c matrix for some number of rows r and columns c.
 
 ### We divide the matrix into vertical stripes. If we can not store in main memory, we just divide the matrix into square matrix and map reduce is applied 
 
