@@ -17,15 +17,11 @@ for line in sys.stdin:
         print >> sys.stderr, "reporter:counter:Wiki stats,Total words,%d" % 1
         print "%s\t%d" % (word.lower(), 1) 
 
-Overwriting mapper.py
-
 2. %%writefile reducer.py
 #!/usr/bin/python
 import sys
 current_key = None
 word_sum = 0 
-
-Overwriting reducer.py
 
 3. %%writefile -a reducer.py
 for line in sys.stdin:
@@ -43,11 +39,7 @@ for line in sys.stdin:
 if current_key:
     print "%s\t%d" % (current_key, word_sum) 
 
-Appending to reducer.py
-
 4. ! hdfs dfs -ls /data/wiki
-
-/bin/sh: 1: hdfs: not found
 
 5. %%bash
 
