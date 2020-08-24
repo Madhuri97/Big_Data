@@ -1,4 +1,5 @@
 # MapReduce Streaming
+
 ## Question 1: What do you need to define for processing data with Hadoop Streaming on the Map phase:
     Input records format
     Correct: Yes, a mapper program should know how to parse input records

@@ -1,4 +1,5 @@
 # Hadoop MapReduce Intro
+
 ## Question 1: Select the type of failure when a server in a cluster gets out of service because of the power supply has burnt out
     Fail-Stop
     Correct: Yes, because the server requires somebody to fix the problem
